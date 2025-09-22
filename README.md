@@ -51,6 +51,8 @@
 
 ## 📌 Autor
 **Franco Ruz**
+
 **Cesar veliz**
+
 **Hector Aguila**
 Proyecto académico - Evaluación Parcial Machine Learning

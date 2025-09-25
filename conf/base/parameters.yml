@@ -1,0 +1,13 @@
+# Columna objetivo
+target_column: Sales_Classification
+
+# Proporción de datos para test
+test_size: 0.2
+
+# Semilla para reproducibilidad
+random_state: 42
+
+# Parámetros del modelo
+model:
+  type: logistic_regression
+  max_iter: 1000

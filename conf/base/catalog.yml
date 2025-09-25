@@ -1,0 +1,46 @@
+bmw_classification:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/bmw_classification.csv
+
+bmw_sales:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/bmw_sales.csv
+
+bmw_used:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/bmw_used.csv
+
+
+bmw_classification_clean:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/bmw_classification_clean.csv
+  save_args:
+    index: False
+
+bmw_sales_clean:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/bmw_sales_clean.csv
+  save_args:
+    index: False
+
+bmw_used_clean:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/bmw_used_clean.csv
+  save_args:
+    index: False
+    
+X_train:
+  type: pickle.PickleDataset
+  filepath: data/03_primary/X_train.pkl
+
+X_test:
+  type: pickle.PickleDataset
+  filepath: data/03_primary/X_test.pkl
+
+y_train:
+  type: pickle.PickleDataset
+  filepath: data/03_primary/y_train.pkl
+
+y_test:
+  type: pickle.PickleDataset
+  filepath: data/03_primary/y_test.pkl

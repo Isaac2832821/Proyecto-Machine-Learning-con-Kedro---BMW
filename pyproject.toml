@@ -1,0 +1,14 @@
+[tool.kedro]
+package_name = "proyecto_ml"
+project_name = "Machine Learning BMW"
+kedro_init_version = "1.0.0"
+source_dir = "src"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.kedro_telemetry]
+project_id = "32c1fdf9e61d4a12bccc2f0c8fc392da"
